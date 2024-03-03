@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="smoke">
+	<test name="LoginTest">
+		<parameter name="emailOrUsername" value= "demo@codefios.com" />
+		<parameter name="username" value="demo@codefios.com" />
+		<parameter name="password" value="abc123" />
+		<classes>
+			<class name="tests.LoginTest"></class>
+		</classes>
+	</test>
+</suite>

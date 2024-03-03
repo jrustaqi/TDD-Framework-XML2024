@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="regression">
+	<test name="AddNewCustomer">
+		<parameter name="username" value="demo@codefios.com" />
+		<parameter name="password" value="abc123" />
+		<parameter name="dashboardHeaderText" value="Dashboard" />
+		<parameter name="newCustomerHeaderText" value="New Customer" />
+		<parameter name="fullname" value="xmlProjectDataDriven" />
+		<parameter name="company" value="Apple" />
+		<parameter name="email" value="nono@appple.com" />
+		<parameter name="phone" value="222123456" />
+		<parameter name="address" value="No Where" />
+		<parameter name="city" value="Oslo" />
+		<parameter name="zip" value="40018" />
+		<parameter name="country" value="Norway" />
+		<parameter name="group" value="Lazy" />
+		<classes>
+		  
+			<!--<class name="tests.LoginTest" />-->
+			<class name="tests.AddNewCustomerTest" />
+		</classes>
+	</test>
+</suite>
